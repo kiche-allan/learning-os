@@ -9,7 +9,7 @@ import StatCard from '@/components/StatCard'
 
 const PHASE_LABELS: Record<TrackId, Record<number, string>> = {
   devops:      { 1: 'Foundation', 2: 'Containers & CI/CD', 3: 'Cloud & SRE' },
-  ai:          { 1: 'LLM Zoomcamp — 5-week sprint', 2: 'Deeper AI (weeks 6–14)' },
+  ai:          { 0: '✓ LLM Zoomcamp — applied RAG (done)', 1: 'Math & Python foundations', 2: 'Classical machine learning', 3: 'Neural networks from scratch', 4: 'Sequence models & Transformers', 5: 'Applied modern AI (LLMs, agents, fine-tuning)' },
   music:       { 1: 'Foundation — semi-acoustic (months 1–3)', 2: 'Intermediate — semi-acoustic (months 4–7)', 3: 'Advanced semi-acoustic (months 8–12)', 4: 'Electric guitar (year 2+)' },
   datascience: { 1: 'Math & Python foundations', 2: 'Classical machine learning', 3: 'Deep learning', 4: 'MLOps & capstone' },
   web:         { 1: 'Next.js App Router', 2: 'Node.js backend', 3: 'Nuxt 3 & edge' },

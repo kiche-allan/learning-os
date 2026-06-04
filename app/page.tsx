@@ -99,14 +99,14 @@ export default function Dashboard() {
       <div className="fade-up-4" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 20 }}>
         <div style={{ background: 'var(--bg3)', border: '1px solid var(--border)', borderRadius: 12, padding: '18px 20px' }}>
           <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.07em', color: 'var(--text3)', marginBottom: 14 }}>
-            Active sprint — LLM Zoomcamp
+            AI track — current phase
           </div>
           {[
-            { wk: 'Wk 1', title: 'Intro to LLMs & RAG', id: 'ai1' },
-            { wk: 'Wk 2', title: 'Open-source LLMs', id: 'ai2' },
-            { wk: 'Wk 3', title: 'Vector databases', id: 'ai3' },
-            { wk: 'Wk 4', title: 'Evaluation', id: 'ai4' },
-            { wk: 'Wk 5', title: 'Capstone project', id: 'ai5' },
+            { wk: 'Done ✓', title: 'LLM Zoomcamp — RAG foundations', id: 'ai0' },
+            { wk: 'Wk 1–2',  title: 'Math — linear algebra',          id: 'ai1' },
+            { wk: 'Wk 2–3',  title: 'Math — calculus & optimization', id: 'ai2' },
+            { wk: 'Wk 3–4',  title: 'Math — probability & stats',     id: 'ai3' },
+            { wk: 'Wk 4–5',  title: 'Python for AI',                  id: 'ai4' },
           ].map((item, i) => {
             const done = state.completedTopics.includes(item.id)
             return (

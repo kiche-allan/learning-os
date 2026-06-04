@@ -7,6 +7,7 @@ export interface Topic {
   week?: string
   tag?: string
   phase: number
+  subtopics?: string[]
 }
 
 export interface Book {
